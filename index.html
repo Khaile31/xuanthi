@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xuân Thì — nơi thanh xuân chậm lại một ly</title>
+  <meta name="description" content="Xuân Thì — quán cà phê trong con ngõ cũ, nơi thời gian chậm lại. Cà phê phin, cà phê trứng, bánh flan trứng muối giữa không gian hoài niệm.">
+  <meta name="theme-color" content="#F3EDE0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">→ Vào nội dung</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#hero" class="wordmark" aria-label="Xuân Thì — về đầu trang">XUÂN THÌ</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Menu chính">
+        <ul>
+          <li><a href="#story" data-nav="story">Câu chuyện</a></li>
+          <li><a href="#menu" data-nav="menu">Thực đơn</a></li>
+          <li><a href="#space" data-nav="space">Không gian</a></li>
+          <li><a href="#visit" data-nav="visit">Ghé quán</a></li>
+        </ul>
+      </nav>
+
+      <a href="#menu" class="btn btn--primary btn--sm header-cta">Xem thực đơn</a>
+
+      <button class="hamburger" id="hamburger" type="button"
+              aria-label="Mở menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Giới thiệu Xuân Thì">
+      <div class="hero__bg" role="img" aria-label="Quán cà phê trong nắng chiều, tông màu film ấm"></div>
+      <div class="hero__scrim"></div>
+      <div class="hero__grain" aria-hidden="true"></div>
+
+      <div class="hero__inner container">
+        <span class="eyebrow" data-reveal>Quán cà phê trong con ngõ cũ</span>
+        <h1 data-reveal>Nơi thanh xuân<br>chậm lại một ly.</h1>
+        <p class="lead" data-reveal>Một góc nhỏ giữa phố, nơi tiếng phin nhỏ giọt chậm rãi, nắng lọt qua khung cửa gỗ, và người bạn cũ tự nhiên tìm về nhau.</p>
+        <div class="hero__ctas" data-reveal>
+          <a href="#visit" class="btn btn--primary">Ghé Xuân Thì</a>
+          <a href="#menu" class="btn btn--ghost">Xem thực đơn</a>
+        </div>
+      </div>
+
+      <a href="#story" class="scroll-cue" aria-label="Cuộn xuống">
+        <span aria-hidden="true">⌄</span>
+      </a>
+    </section>
+
+    <!-- STORY -->
+    <section class="story" id="story" aria-labelledby="story-heading">
+      <div class="container story__grid">
+        <div class="story__image" data-reveal>
+          <div class="story__frame"
+               role="img"
+               aria-label="Quầy gỗ và dãy phin nhôm lau bóng ở sảnh pha chế"></div>
+        </div>
+
+        <div class="story__text">
+          <span class="eyebrow" data-reveal>Câu chuyện của quán</span>
+          <h2 id="story-heading" data-reveal>Bà giữ lại chiếc bàn gỗ, chiếc đài cassette và thói quen pha cà phê bằng phin mỗi sáng.</h2>
+
+          <p data-reveal>Xuân Thì bắt đầu từ một căn tập thể cũ, nơi bà giữ lại chiếc bàn gỗ, chiếc đài cassette và thói quen pha cà phê bằng phin mỗi sáng sáu giờ. Chúng tôi mở quán không phải để dựng lại một thời đã qua, mà để giữ lại cảm giác của những ngày tháng đó: tiếng nước sôi rót chậm, nắng xiên qua khung cửa gỗ, trang thư viết tay chưa gửi, và người bạn cũ tự nhiên tìm về nhau khi cùng ngồi xuống một chiếc ghế thấp.</p>
+
+          <p data-reveal>Ở đây, thời gian không gấp. Cà phê nhỏ giọt từng nhịp, bánh còn nóng hổi — và tuổi trẻ, dù bạn đang hai mươi hay đã ngoài ba mươi — đều được phép ngồi lại, chậm lại, thương lại một chút.</p>
+
+          <div class="hairline" data-reveal></div>
+
+          <blockquote class="story__quote" data-reveal>Chậm mà thương.</blockquote>
+
+          <a href="#space" class="link-arrow" data-reveal>Đọc thêm về không gian →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+        <header class="section-head section-head--center" data-reveal>
+          <span class="eyebrow">Thực đơn</span>
+          <h2 id="menu-heading">Tám món nhà làm</h2>
+          <p class="menu__note">Giá chưa gồm thuế và phí phục vụ. Nguyên liệu nhập theo mùa, có thể thay đổi theo ngày.</p>
+        </header>
+
+        <ul class="menu__grid" data-reveal-group>
+          <li class="menu-card is-signature" data-reveal>
+            <span class="menu-card__badge">Chuyện nhà</span>
+            <h3>Cà phê trứng Xuân Thì</h3>
+            <p class="menu-card__desc">Bông lòng đỏ trứng ta đánh cùng sữa đặc, phủ trên tách cà phê nóng — &ldquo;tiramisu dạng uống&rdquo; của Hà thành.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">45.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Cà phê phin truyền thống</h3>
+            <p class="menu-card__desc">Robusta Đà Lạt rang vừa, nhỏ giọt chậm trên phin nhôm — vị đắng thật, hậu ngọt lâu.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">29.000đ / 32.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Bạc xỉu</h3>
+            <p class="menu-card__desc">Nhiều sữa, ít cà phê — ly nước của những buổi sáng chưa quen đắng.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">35.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card is-signature" data-reveal>
+            <span class="menu-card__badge">Chuyện nhà</span>
+            <h3>Cà phê cốt dừa</h3>
+            <p class="menu-card__desc">Cà phê đánh cùng cốt dừa béo, đá mịn, rắc topping dừa sấy — mát và thơm như gió lồng phố cũ.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">42.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Trà sen tách nóng</h3>
+            <p class="menu-card__desc">Sen Hồ Tây sấy khô, hãm trong ấm đất — hương thanh, vị dịu, uống chậm mà thấm.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">38.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Nước mía tắc</h3>
+            <p class="menu-card__desc">Mía ép tại chỗ, vài quả tắc, lát gừng — thức uống cổng trường ngày cũ.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">30.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Bánh flan trứng muối</h3>
+            <p class="menu-card__desc">Flan mềm tan, lớp caramel đắng nhẹ, nhân trứng muối mặn bùi — ăn kèm cà phê đen là hợp vị.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">35.000đ</span>
+            </div>
+          </li>
+
+          <li class="menu-card" data-reveal>
+            <h3>Bông lan trứng muối &ldquo;giờ ra chơi&rdquo;</h3>
+            <p class="menu-card__desc">Bánh bông lan nóng, ruốc, trứng muối — gợi nhắc hộp bánh mẹ chuẩn bị trong cặp sách.</p>
+            <div class="menu-card__footer">
+              <span class="menu-card__dot"></span>
+              <span class="menu-card__price">38.000đ</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="section-foot" data-reveal>
+          <a href="#" class="btn btn--ghost">Xem toàn bộ thực đơn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPACE -->
+    <section class="space" id="space" aria-labelledby="space-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">Không gian</span>
+          <h2 id="space-heading">Năm góc, một nhịp chậm</h2>
+        </header>
+        <p class="space__hint" aria-hidden="true">Kéo ngang →</p>
+      </div>
+
+      <div class="space__track-wrap">
+        <div class="space__track" id="space-track">
+          <article class="space-card" data-reveal>
+            <div class="space-card__img space-card__img--1"
+                 role="img"
+                 aria-label="Quầy gỗ véc-ni cũ và dãy phin nhôm lau bóng ở sảnh pha chế"></div>
+            <div class="space-card__caption">
+              <h3>Sảnh phin &amp; quầy gỗ</h3>
+              <p>&ldquo;Nơi mọi ly cà phê bắt đầu bằng một giọt đầu tiên.&rdquo;</p>
+            </div>
+          </article>
+
+          <article class="space-card" data-reveal>
+            <div class="space-card__img space-card__img--2"
+                 role="img"
+                 aria-label="Góc bao cấp với ghế gỗ gấp, đệm bố và đài cassette cũ"></div>
+            <div class="space-card__caption">
+              <h3>Góc bao cấp</h3>
+              <p>&ldquo;Ngồi xuống là thấy mình nhỏ lại, hồi mười tám.&rdquo;</p>
+            </div>
+          </article>
+
+          <article class="space-card" data-reveal>
+            <div class="space-card__img space-card__img--3"
+                 role="img"
+                 aria-label="Sân sau với giàn hoa giấy đổ bóng trên tường vàng kem"></div>
+            <div class="space-card__caption">
+              <h3>Sân sau giàn hoa giấy</h3>
+              <p>&ldquo;Nắng lọt qua lá, vàng như một trang vở cũ.&rdquo;</p>
+            </div>
+          </article>
+
+          <article class="space-card" data-reveal>
+            <div class="space-card__img space-card__img--4"
+                 role="img"
+                 aria-label="Tầng thượng view mái ngói phố cũ lúc hoàng hôn"></div>
+            <div class="space-card__caption">
+              <h3>Tầng thượng view phố cũ</h3>
+              <p>&ldquo;Lên đây lúc bốn giờ chiều, để thấy thành phố thở chậm.&rdquo;</p>
+            </div>
+          </article>
+
+          <article class="space-card" data-reveal>
+            <div class="space-card__img space-card__img--5"
+                 role="img"
+                 aria-label="Tường ảnh đen trắng và bưu thiếp viết tay ghim trên bảng mềm"></div>
+            <div class="space-card__caption">
+              <h3>Tường ảnh ký ức</h3>
+              <p>&ldquo;Thanh xuân của người khác, nhìn cũng thấy thương.&rdquo;</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="space__progress" aria-hidden="true">
+          <div class="space__progress-bar" id="space-progress"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit" id="visit" aria-labelledby="visit-heading">
+      <div class="container visit__grid">
+        <div class="visit__info" data-reveal>
+          <span class="eyebrow eyebrow--light">Vào cửa</span>
+          <h2 id="visit-heading">Số nhà 92, đường 8A, tỉnh Đắk Lắk</h2>
+          <p class="visit__address">Quán nằm cuối đường, bên tay phải, dưới bóng cây xà cừ cũ.</p>
+
+          <ul class="visit__contacts">
+            <li>
+              <span class="label">Hotline</span>
+              <a href="tel:0243xxxxxx">0243.xxx.xxx</a>
+            </li>
+            <li>
+              <span class="label">Zalo / Instagram</span>
+              <a href="https://instagram.com/xuanthi.cafe" rel="noopener">@xuanthi.cafe</a>
+            </li>
+          </ul>
+
+          <div class="visit__ctas">
+            <a href="https://maps.google.com/?q=Số+nhà+92,+đường+8A,+Đắk+Lắk"
+               class="btn btn--accent" rel="noopener" target="_blank">Chỉ đường</a>
+            <a href="tel:0243xxxxxx" class="btn btn--ghost-light">Gọi đặt bàn</a>
+          </div>
+        </div>
+
+        <div class="visit__hours" data-reveal>
+          <span class="eyebrow eyebrow--light">Giờ mở cửa</span>
+          <table class="hours-table">
+            <tbody>
+              <tr>
+                <th scope="row">Thứ 2 – Chủ nhật</th>
+                <td>07:00 – 23:00</td>
+              </tr>
+              <tr class="hours-table__slow">
+                <th scope="row"><span class="slow-dot" aria-hidden="true"></span>Khung giờ chậm</th>
+                <td>14:00 – 17:00</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hours-note">Nhạc acoustic, đèn vàng, phin cà phê chậm hơn một nhịp.</p>
+
+          <div class="visit__map-slot" aria-hidden="true">
+            <span>Bản đồ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="footer__wordmark">XUÂN THÌ</div>
+        <p class="footer__slogan">Chậm mà thương.</p>
+      </div>
+      <div class="footer__address">
+        <p>Số nhà 92, đường 8A<br>tỉnh Đắk Lắk</p>
+        <p>07:00 – 23:00 · Thứ 2 – Chủ nhật</p>
+      </div>
+      <div class="footer__social">
+        <a href="https://instagram.com/xuanthi.cafe" rel="noopener" target="_blank">Instagram</a>
+        <a href="#" rel="noopener">Facebook</a>
+        <a href="#" rel="noopener">Zalo</a>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2026 Xuân Thì Café · Chậm mà thương.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
